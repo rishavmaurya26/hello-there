@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import React from 'react'
 import { useState } from "react";
 export default function Post(props) {
- const PF = "http://localhost:3000/assets/"
+ const PF = "https://hello-there-26.netlify.app/assets/"
  const [isliked,setisliked] = useState(0);
  const [like,setlike] = useState(props.post.like);
  let user = {}

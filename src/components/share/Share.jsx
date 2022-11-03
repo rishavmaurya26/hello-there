@@ -9,7 +9,7 @@ import {
 import React from 'react'
 
 export default function Share(props) {
-  const PF = "http://localhost:3000/assets/"
+  const PF = "https://hello-there-26.netlify.app/assets/"
   return (
     <div className="share">
       <div className="shareWrapper">
